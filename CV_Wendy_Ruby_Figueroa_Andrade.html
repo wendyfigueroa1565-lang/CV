@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV - Wendy Ruby Figueroa Andrade</title>
+<style>
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: #eaf4ee;
+        color: #26352c;
+        line-height: 1.55;
+    }
+    .cv {
+        max-width: 950px;
+        margin: 35px auto;
+        background: white;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 12px 35px rgba(34, 76, 51, .15);
+    }
+    header {
+        background: linear-gradient(135deg, #174d35, #2f7d52);
+        color: white;
+        padding: 42px 48px 36px;
+    }
+    header h1 {
+        margin: 0 0 8px;
+        font-size: 38px;
+        letter-spacing: .5px;
+    }
+    header p {
+        margin: 6px 0;
+        font-size: 16px;
+    }
+    .tag {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 7px 14px;
+        border: 1px solid rgba(255,255,255,.5);
+        border-radius: 20px;
+        font-size: 14px;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1.65fr;
+    }
+    aside {
+        background: #f3f8f4;
+        padding: 32px;
+    }
+    section {
+        padding: 32px 40px;
+    }
+    h2 {
+        color: #236743;
+        font-size: 20px;
+        margin: 0 0 16px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #b8d8c2;
+    }
+    .block { margin-bottom: 30px; }
+    .item { margin-bottom: 20px; }
+    .item strong {
+        display: block;
+        color: #214f36;
+        font-size: 16px;
+    }
+    .item span {
+        color: #607167;
+        font-size: 14px;
+    }
+    ul {
+        margin: 8px 0 0;
+        padding-left: 19px;
+    }
+    li { margin: 7px 0; }
+    .skill {
+        margin: 10px 0;
+    }
+    .skill-title {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .bar {
+        height: 7px;
+        background: #dbe9df;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .fill {
+        height: 100%;
+        background: #37835a;
+        border-radius: 10px;
+    }
+    .profile {
+        font-size: 15px;
+        color: #45564c;
+    }
+    footer {
+        text-align: center;
+        padding: 18px;
+        background: #174d35;
+        color: white;
+        font-size: 12px;
+    }
+    @media (max-width: 700px) {
+        .cv { margin: 0; border-radius: 0; }
+        main { grid-template-columns: 1fr; }
+        header, section, aside { padding: 28px 24px; }
+        header h1 { font-size: 30px; }
+    }
+</style>
+</head>
+<body>
+<div class="cv">
+    <header>
+        <h1>Wendy Ruby Figueroa Andrade</h1>
+        <p>Estudiante de Ingeniería en Negocios</p>
+        <p>✉ wendy.figueroa1565@alumnos.udg.mx</p>
+        <span class="tag">Atención al cliente · Barista · Administración</span>
+    </header>
+
+    <main>
+        <aside>
+            <div class="block">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Responsabilidad y compromiso</li>
+                    <li>Liderazgo</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Atención y trato con clientes</li>
+                    <li>Comunicación efectiva</li>
+                    <li>Organización y puntualidad</li>
+                    <li>Adaptabilidad y aprendizaje rápido</li>
+                    <li>Resolución de problemas</li>
+                </ul>
+            </div>
+
+            <div class="block">
+                <h2>Herramientas</h2>
+                <div class="skill">
+                    <div class="skill-title"><span>Microsoft Word</span><span>Básico</span></div>
+                    <div class="bar"><div class="fill" style="width:55%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-title"><span>Microsoft Excel</span><span>Básico</span></div>
+                    <div class="bar"><div class="fill" style="width:50%"></div></div>
+                </div>
+                <div class="skill">
+                    <div class="skill-title"><span>Microsoft PowerPoint</span><span>Básico</span></div>
+                    <div class="bar"><div class="fill" style="width:55%"></div></div>
+                </div>
+            </div>
+
+            <div class="block">
+                <h2>Fortalezas</h2>
+                <ul>
+                    <li>Actitud de servicio</li>
+                    <li>Facilidad para trabajar bajo presión</li>
+                    <li>Atención al detalle</li>
+                    <li>Buena disposición para aprender</li>
+                </ul>
+            </div>
+        </aside>
+
+        <section>
+            <div class="block">
+                <h2>Perfil profesional</h2>
+                <p class="profile">
+                    Estudiante de Ingeniería en Negocios, con formación técnica en Alimentos y Bebidas
+                    y 2 años de experiencia como barista. Cuento con experiencia en atención al cliente,
+                    manejo de efectivo y trabajo en equipo. Me caracterizo por ser una persona responsable,
+                    organizada, comprometida y con facilidad para aprender. Busco continuar desarrollando
+                    mis habilidades profesionales y aportar una actitud positiva y de servicio en el entorno laboral.
+                </p>
+            </div>
+
+            <div class="block">
+                <h2>Experiencia profesional</h2>
+                <div class="item">
+                    <strong>Barista</strong>
+                    <span>2 años de experiencia</span>
+                    <ul>
+                        <li>Preparación y servicio de bebidas.</li>
+                        <li>Atención directa y trato cordial con clientes.</li>
+                        <li>Manejo de efectivo y cobro de productos.</li>
+                        <li>Apoyo en la organización y limpieza del área de trabajo.</li>
+                        <li>Trabajo en equipo para mantener un servicio eficiente.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="block">
+                <h2>Formación académica</h2>
+                <div class="item">
+                    <strong>Ingeniería en Negocios</strong>
+                    <span>Centro Universitario de Tlajomulco (CUTlajomulco)</span>
+                    <p>Actualmente cursando.</p>
+                </div>
+                <div class="item">
+                    <strong>Carrera Técnica en Alimentos y Bebidas</strong>
+                    <span>CONALEP Zapopan 258</span>
+                </div>
+            </div>
+
+            <div class="block">
+                <h2>Competencias</h2>
+                <ul>
+                    <li>Servicio y orientación al cliente</li>
+                    <li>Manejo responsable de efectivo</li>
+                    <li>Organización de actividades</li>
+                    <li>Colaboración y liderazgo en equipo</li>
+                    <li>Comunicación interpersonal</li>
+                    <li>Adaptación a diferentes situaciones laborales</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Wendy Ruby Figueroa Andrade · Currículum Vitae
+    </footer>
+</div>
+</body>
+</html>
